@@ -25,3 +25,23 @@ To use the Province Counter program:
    ```shell
    javac ProvinceCounter.java
  
+4. Run the compiled program using the following command:
+
+         java ProvinceCounter
+
+5. The program will calculate the total number of provinces based on the provided isConnected matrix and display the result in the console.
+
+## Example
+Consider the following isConnected matrix representing the city connections:
+
+
+      int[][] isConnected = {
+         {1, 1, 0},
+         {1, 1, 0},
+         {0, 0, 1}
+         };
+
+Running the program with this matrix will output:
+
+         Total number of provinces: 2
+This indicates that there are two provinces in total based on the given city connections.
